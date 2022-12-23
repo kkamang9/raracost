@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* font-family: 'Noto Sans KR', 돋움,  sans-serif; */
+/* 100 300 400 500 700 900 */
+
+/* VISUAL - S */
+.visual{width: 100%; height: 800px; min-width: 1280px;}
+/* VISUAL - E */
+/* EVENT - S */
+/* EVENT - E */
+/* RARACOST - S */
+.raracost{
+  width: 100%; height: 950px; min-width: 1280px;
+  background-image: url(/img/main/raracost-bg-img1.png), url(/img/main/raracost-bg-img2.png), url(/img/main/raracost-bg-img3.png), url(/img/main/raracostbg.png);
+  background-position: right top, 1550px 450px, left bottom, center center;
+  background-repeat: no-repeat;
+  background-color: #fd0;
+  overflow: hidden;
+}
+.raracost .sec-header{float: left;}
+.raracost-wrap{
+  float: right;
+  width: 880px;
+}
+.raracost-wrap article{
+  width: 880px; height: 500px;
+  position: relative;
+}
+.raracost-wrap article + article{margin-top: 30px;}
+.raracost-wrap article figure{
+  display: block;
+  width: 400px; height: 500px;
+  position: relative; z-index: 10;
+  overflow: hidden;
+  transition: all 0.3s;
+  box-shadow: 0 0 20px 3px rgba(0,0,0,0.2);
+}
+.raracost-wrap .raracost-desc{
+  display: block;
+  width: 400px; height: 250px;
+  padding: 30px;
+  border-radius: 50px 0 50px 0;
+  background-color: #fff;
+  position: absolute; top: 220px;
+  transition: all 0.5s;
+  box-shadow: 0 0 20px 3px rgba(0,0,0,0.2);
+}
+.raracost-wrap article:nth-child(2n-1) > a{left: 0;}
+.raracost-home figure{float: right;}
+.raracost-home .raracost-desc{right: 0;}
+/* HOVER */
+.raracost-wrap article:nth-child(2n-1):hover .raracost-desc{left: 420px;}
+.raracost-wrap article:nth-child(2):hover .raracost-desc{right: 420px;}
+.raracost-wrap article:nth-child(2n-1):hover figure{border-radius: 200px 200px 0 0;}
+.raracost-wrap article:nth-child(2):hover figure{border-radius: 200px 200px 0 0;}
+/* RARACOST - E */
+/* MENU - S */
+.menu{
+  width: 100%; min-width: 1280px;
+  overflow: hidden;
+}
+.menu .sec-header{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.menu .swiper{
+  width: 1280px;
+  overflow: visible;
+}
+.menu .swiper-wrapper li a{text-align: center;}
+.menu .swiper-wrapper li a::before{content: "";
+  display: block;
+  width: 320px; height: 320px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  box-shadow: 0 5px 10px 3px rgba(0,0,0,0.1);
+  transition: all 0.5s;
+}
+.menu .swiper-wrapper li a em{
+  display: block;
+  font: 300 16px/20px 'Noto Sans KR', sans-serif, '돋움', dotum, AppleGothic, sans-serif; color: #38f;
+}
+.menu .swiper-wrapper li a strong{
+  display: block;
+  font: 700 28px/40px 'Noto Sans KR', sans-serif, '돋움', dotum, AppleGothic, sans-serif; color: #333;
+  transition: all 0.3s;
+}
+.menu .swiper-wrapper .slide1 a::before{background-image: url(/img/main/menu01.png);}
+.menu .swiper-wrapper .slide2 a::before{background-image: url(/img/main/menu02.png);}
+.menu .swiper-wrapper .slide3 a::before{background-image: url(/img/main/menu03.png);}
+.menu .swiper-wrapper .slide4 a::before{background-image: url(/img/main/menu04.png);}
+.menu .swiper-wrapper .slide5 a::before{background-image: url(/img/main/menu05.png);}
+.menu .swiper-wrapper .slide6 a::before{background-image: url(/img/main/menu06.png);}
+.menu .swiper-wrapper .slide7 a::before{background-image: url(/img/main/menu07.png);}
+/* HOVER */
+.menu .swiper-wrapper li:hover a::before{background-size: 120%;}
+.menu .swiper-wrapper li:hover a strong{color: #f33;}
+/* MENU - E */
+/* FRANCHISE - S */
+.franchise{
+  min-width: 1280px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.2);
+  position: relative;
+}
+.franchise::after{content: "";
+  display: block;
+  width: 100%; height: 610px; min-width: 1280px;
+  background: url(/img/main/franchise-bg.jpg) no-repeat center center;
+  position: absolute; left: 0; top: 0; z-index: -1;
+}
+.franchise .inner .sec-header{margin-bottom: 30px;}
+.franchise-desc{
+  margin-bottom: 60px;
+  color: #fff;
+}
+.franchise-desc p{
+  margin-bottom: 20px;
+  font-weight: 400; font-size: 40px; line-height: 50px;
+}
+.franchise-desc p strong{font-weight: 700;}
+.franchise-desc em{font-size: 20px; line-height: 30px;}
+.franchise-btn{
+  display: block;
+  width: 250px; height: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-weight: 700; font-size: 28px; line-height: 50px; color: #fff;
+  background-color: #555;
+  transition: all 0.3s;
+}
+/* HOVER */
+.franchise-btn:hover{background-color: #f33;}
+/* FRANCHISE - E */
+/* NOTICE - S */
+.notice{min-width: 1280px;}
+.notice .sec-header{text-align: center;}
+/* NOTICE - E */
