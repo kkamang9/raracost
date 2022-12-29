@@ -8,14 +8,14 @@ include_once(G5_PATH.'/head.php');
 ?>
 
     <h2 class="hidden">메인컨텐츠</h2>
-    <section id="block" class="visual" data-vide-bg="/video/clip1"></section>
+    <section id="block" class="visual" data-vide-bg="/video/raravideo"></section>
     <section class="event inner sec">
         <div class="sec-header">
             <h3 class="tit">EVENT</h3>
             <p class="desc">혜택이 가득! 즐거움이 두배!<br>진행중인 이벤트를 확인하세요!</p>
         </div>
         <article class="event-latest">
-            <?php echo latest('pic_block', 'gallery', 4, 23); ?>
+            <?php echo latest('pic_block', 'event', 4, 23); ?>
         </article>
     </section>
     <section class="raracost sec">

@@ -48,7 +48,7 @@ if (G5_IS_MOBILE) {
 if($config['cf_add_meta'])
     echo $config['cf_add_meta'].PHP_EOL;
 ?>
-<title><?php echo $g5_head_title; ?></title>
+<title>라라코스트</title>
 <?php
 if (defined('G5_IS_ADMIN')) {
     if(!defined('_THEME_PREVIEW_'))
@@ -101,6 +101,18 @@ if(G5_IS_MOBILE) {
 if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
+    <meta name="keywords" content="라라코스트, 패밀리 레스토랑, 키즈존, 맛집, 레스토랑, 착한가격"/>
+    <meta name="description" content="순수 국내 패밀리 레스토랑 프렌차이즈, 합리적인 가격 그 이상의 가치"/>
+
+    <!-- 오픈그래픽 -->
+    <meta property="og:title" content="RARACOST"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="'합리적인 가격, 그이상의 가치!' 순수 국내 패밀리 레스토랑 라라코스트 입니다."/>
+    <meta property="og:image" content="/img/common/og.jpg"/>
+
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/common/favicon.png">
+
 </head>
 <body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
 <?php

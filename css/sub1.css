@@ -50,3 +50,23 @@
   background-repeat: no-repeat;
 }
 .interior .sub-txt p:nth-of-type(1){margin-bottom: 10px;}
+
+/* CEO */
+.ceo{}
+.ceo::before{content: "";
+  display: block;
+  width: 100%; height: 370px; min-width: 1280px;
+  margin-bottom: 50px;
+  background: url(/img/sub/sub1/ceo-top.png) no-repeat;
+}
+.ceo .sub-txt{}
+.ceo .sub-txt .sub-tit{}
+.ceo .sub-txt em{}
+.ceo .sub-txt em strong{}
+.ceo-wrap{}
+.ceo-wrap .ceo-list{}
+.ceo-wrap .ceo-list em{}
+.ceo-wrap .ceo-list .ceo-desc{}
+.ceo-wrap .ceo-list .ceo-desc h4{}
+.ceo-wrap .ceo-list .ceo-desc h4 strong{}
+.ceo-wrap .ceo-list .ceo-desc p{}

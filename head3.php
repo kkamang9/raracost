@@ -12,8 +12,8 @@ include_once(G5_LIB_PATH.'/connect.lib.php');
 include_once(G5_LIB_PATH.'/popular.lib.php');
 ?>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/sub-common.css">
+<link rel="stylesheet" href="/css/sub1.css">
 
 <div id="skip_to_container"><a href="#container">본문 바로가기</a></div>
 <!-- 상단 시작 -->
@@ -145,3 +145,18 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     </div>
 </header>
 <main id="main">
+    <section class="visual">
+        <div class="inner">커뮤니티</div>
+    </section>
+    <nav class="lnb">
+        <h3 class="hidden">로케이트 네비게이션</h3>
+        <div class="inner">
+            <ul class="lnb-list">
+                <li class="on"><a href="/sub/sub1-1.php">공지사항</a></li>
+                <li><a href="/sub/sub1-2.php">언론보도</a></li>
+                <li><a href="http://jaehong.pe.kr/bbs/board.php?bo_table=event">진행중인 이벤트</a></li>
+                <li><a href="/sub/sub1-4.php">종료된 이벤트</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="sub inner">

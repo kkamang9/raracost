@@ -1,4 +1,5 @@
 <?php if (!defined('_GNUBOARD_')) exit; ?>
+  </section>
 </main>
 <!-- } 콘텐츠 끝 -->
 <!-- 하단 시작 { -->
