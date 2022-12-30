@@ -69,13 +69,14 @@ img {vertical-align: top;}
 .skip-nav a:focus {top: 0;}
 .inner{width: 1280px; margin: 0 auto;}
 .hidden{position: fixed; left: -9999px; top: 0;}
-.clearfix:after{content: ""; clear: both; display: block;}
+.clearfix::after{content: ""; clear: both; display: block;}
 .sec{padding: 150px 0;}
 .sec-header .tit{
   margin-bottom: 5px;
   font-weight: 900; font-size: 60px; line-height: 70px; color: #f33;
 }
 .sec-header .desc{font-weight: 300; font-size: 16px; line-height: 25px; color: #777;}
+.lt_more{font-weight: 300; font-size: 14px;}
 
 /* 레이아웃 크기 지정 */
 /* 상단 레이아웃 */

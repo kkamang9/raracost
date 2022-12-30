@@ -155,7 +155,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 <li class="on"><a href="/sub/sub1-1.php">브랜드 소개</a></li>
                 <li><a href="/sub/sub1-2.php">회사 소개</a></li>
                 <li><a href="#">찾아오시는 길</a></li>
-                <li><a href="/sub/sub1-4.php">블로그</a></li>
+                <li><a href="#">블로그</a></li>
             </ul>
         </div>
     </nav>

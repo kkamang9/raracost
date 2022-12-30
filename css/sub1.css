@@ -32,7 +32,7 @@
   background-position: left 520px, 940px 50px;
   background-repeat: no-repeat;
 }
-.concept-wrap .sub-txt em{margin-bottom: 10px;}
+.concept-wrap .sub-txt .sub-desc{margin-bottom: 10px;}
 .concept-wrap div:nth-child(1){margin-bottom: 50px;}
 .concept-wrap div:nth-child(3){
   width: 500px;
@@ -52,21 +52,112 @@
 .interior .sub-txt p:nth-of-type(1){margin-bottom: 10px;}
 
 /* CEO */
-.ceo{}
+.ceo{
+  padding-bottom: 200px;
+  background-image: url(/img/sub/sub1/ceo_sign.png), url(/img/sub/sub1/ceo-bgi.png), url(/img/sub/sub1/ceo-circle-txt.png);
+  background-position: 100px 1530px, 780px 1200px, 900px 600px;
+  background-repeat: no-repeat;
+  position: relative;
+}
 .ceo::before{content: "";
   display: block;
   width: 100%; height: 370px; min-width: 1280px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   background: url(/img/sub/sub1/ceo-top.png) no-repeat;
 }
-.ceo .sub-txt{}
-.ceo .sub-txt .sub-tit{}
-.ceo .sub-txt em{}
-.ceo .sub-txt em strong{}
-.ceo-wrap{}
-.ceo-wrap .ceo-list{}
-.ceo-wrap .ceo-list em{}
-.ceo-wrap .ceo-list .ceo-desc{}
-.ceo-wrap .ceo-list .ceo-desc h4{}
-.ceo-wrap .ceo-list .ceo-desc h4 strong{}
-.ceo-wrap .ceo-list .ceo-desc p{}
+.ceo::after{content: "대표";
+  display: inline-block;
+  font-weight: 700; font-size: 18px; line-height: 30px; color: #555;
+  transform: translate(50px,100px);
+}
+.ceo .sub-txt::before{content: "";
+  display: block;
+  width: 400px; height: 400px;
+  background: url(/img/sub/sub1/ceo-circle.png) no-repeat center center;
+  position: absolute; left: 800px; top: 500px;
+  animation: circle 30s linear infinite;
+}
+.ceo .sub-txt{margin-bottom: 50px;}
+.ceo-wrap{padding-left: 50px;}
+.ceo-wrap .ceo-list{margin-bottom: 50px;}
+.ceo-wrap .ceo-list em{
+  float: left;
+  margin-right: 30px;
+  font-weight: 900; font-size: 24px; line-height: 40px; color: #a75;
+}
+.ceo-wrap .ceo-list .ceo-desc{
+  float: left;
+}
+.ceo-wrap .ceo-list .ceo-desc h4{
+  margin-bottom: 20px;
+  font-size: 24px; line-height: 40px; color: #333;
+}
+.ceo-wrap .ceo-list .ceo-desc h4 strong{font-weight: 700;}
+.ceo-wrap .ceo-list .ceo-desc p{font-size: 18px; line-height: 30px; color: #555;}
+@keyframes circle{
+  0% {rotate: 0deg;}
+  50% {rotate: 180deg;}
+  100% {rotate: 360deg;}
+}
+/* HISTORY */
+.history{
+  background: url(/img/sub/sub1/historyBG.png) no-repeat center center;
+  background-size: 250%;
+}
+.history .sub-txt .sub-tit{text-align: center;}
+.history-wrap{position: relative;}
+.history-wrap::before{content: "";
+  display: block;
+  width: 1px; height: 100%;
+  background-color: #fff;
+  position: absolute; left: 50%; top: 0;
+}
+.history-wrap li{position: relative;}
+.history-wrap li::before{content: "";
+  display: block;
+  width: 10px; height: 10px;
+  margin-left: -5px;
+  border-radius: 100%;
+  background-color: #fff;
+  position: absolute; left: 50%; top: 0;
+}
+.history-list dl{
+  width: 640px;
+  padding: 0 50px;
+  color: #fff;
+}
+.history-list:nth-child(2n-1) dl{text-align: right;}
+.history-list:nth-child(2n) dl{float: right;}
+.history-list dl dt{
+  margin-bottom: 10px;
+  font-weight: 700; font-size: 24px; line-height: 30px;
+}
+.history-list dl dd{line-height: 25px;}
+/* TOP */
+.top10 figure img{width: 100%;}
+.top10 span{
+  display: block; float: right;
+  color: #999;
+}
+/* INTERVIEW */
+.interview-wrap .interview-content{
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: auto 350px;
+}
+.interview-wrap .interview-content:nth-child(1){
+  margin-bottom: 50px; padding-left: 653px;
+  background-image: url(/img/sub/sub1/interview1.png);
+}
+.interview-wrap .interview-content:nth-child(2){background-image: url(/img/sub/sub1/interview2.png); background-position: top right;}
+.interview-wrap .interview-content em{
+  display: block;
+  padding-top: 20px;
+  font-size: 24px; line-height: 50px; color: #333;
+}
+.interview-wrap .interview-content em strong{font-weight: 700;}
+.interview-wrap .interview-content span{
+  display: block;
+  font-weight: 700; font-size: 20px; line-height: 40px; color: #555;
+}
+.interview-wrap .interview-content p{line-height: 30px; color: #777;}

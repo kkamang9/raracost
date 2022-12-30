@@ -11,14 +11,14 @@ include_once(G5_PATH.'/head1.php');
 <article class="welcome sub-sec clearfix">
   <div class="sub-txt">
     <h3 class="sub-tit">WELCOME EVERYBODY!</h3>
-    <em>라라코스트는 ‘합리적인 가격, <strong>그 이상의 가치!</strong>’라는 초심으로<br>출발한 <strong>순수 국내 패밀리 레스토랑</strong> 프랜차이즈입니다.</em>
+    <em class="sub-desc">라라코스트는 ‘합리적인 가격, <strong>그 이상의 가치!</strong>’라는 초심으로<br>출발한 <strong>순수 국내 패밀리 레스토랑</strong> 프랜차이즈입니다.</em>
     <p>남녀노소가 즐기는 다양한 메뉴, 가족 고객을 배려한 놀이방 시설,<br>음료와 커피의 기본 제공, 기분 좋은 공간을 연출하는 인테리어 등<br>패밀리 레스토랑의 품격을 완성하기 위한 노력을 끊임없이<br>이어가고 있습니다.</p>
   </div>
 </article>
 <article class="story sub-sec clearfix">
   <div class="sub-txt">
     <h3 class="sub-tit">BRAND STORY</h3>
-    <em><strong>즐거운 가격</strong>으로 패밀리 레스토랑의 문턱을 낮추다</em>
+    <em class="sub-desc"><strong>즐거운 가격</strong>으로 패밀리 레스토랑의 문턱을 낮추다</em>
     <p>사랑하는 사람과 함께 밥 먹는 소중한 시간, 행복이란 바로 그 장면이라고 합니다.<br>라라코스트는 모두가 행복하게 식사할 수 있는 공간을 만들고자<br>즐거운 가격으로 패밀리 레스토랑의 문턱을 낮췄습니다.</p>
   </div>
 </article>
@@ -27,7 +27,7 @@ include_once(G5_PATH.'/head1.php');
   <div class="concept-wrap">
     <div class="sub-txt">
       <h3 class="sub-tit">BRAND CONCEPT</h3>
-      <em><strong>레스토랑의 기본</strong>, 메뉴에 충실하다.</em>
+      <em class="sub-desc"><strong>레스토랑의 기본</strong>, 메뉴에 충실하다.</em>
       <p>라라코스트는 R&D 연구실을 운영하며<br>소비자 입맛에 맞게 레시피를 업그레이드합니다.</p>
     </div>
     <div class="sub-txt">
@@ -48,7 +48,7 @@ include_once(G5_PATH.'/head1.php');
 <article class="interior sub-sec">
   <div class="sub-txt">
     <h3 class="sub-tit">BRAND STORY</h3>
-    <em>기분 좋은 공간, <strong>플랜테리어</strong></em>
+    <em class="sub-desc">기분 좋은 공간, <strong>플랜테리어</strong></em>
     <p>라라코스트의 인테리어 컨셉은 화이트 톤의 플랜테리어<br>(Planterior, 식물과 인테리어의 합성어)입니다.</p>
     <p>수직 정원(Vertical Garden, 벽면을 이용한 실내 조경)과<br>유리 온실(Glass house) 스타일 가벽의<br>배치로 밝고 산뜻한 느낌을 줍니다.</p>
   </div>

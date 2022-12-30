@@ -11,9 +11,9 @@ include_once(G5_PATH.'/head1.php');
 <article class="ceo sub-sec">
   <div class="sub-txt">
     <h3 class="sub-tit">CEO MESSAGE</h3>
-    <em>라라코스트는 <strong>해외 로열티 지급이 없는</strong><br>순수 국내 패밀리 레스토랑 프랜차이즈 입니다.</em>
+    <em class="sub-desc">라라코스트는 <strong>해외 로열티 지급이 없는</strong><br>순수 국내 패밀리 레스토랑 프랜차이즈 입니다.</em>
   </div>
-  <ul class="ceo-wrap">
+  <ul class="ceo-wrap clearfix">
     <li class="ceo-list clearfix">
       <em>01</em>
       <div class="ceo-desc">
@@ -42,19 +42,19 @@ include_once(G5_PATH.'/head1.php');
     <h3 class="sub-tit">HISTORY</h3>
   </div>
   <ul class="history-wrap">
-    <li class="history-list">
+    <li class="history-list clearfix">
       <dl>
         <dt>2011</dt>
         <dd>라라코스트 브랜드 론칭</dd>
       </dl>
     </li>
-    <li class="history-list">
+    <li class="history-list clearfix">
       <dl>
         <dt>2014</dt>
         <dd>50호점 울산구영점 오픈</dd>
       </dl>
     </li>
-    <li class="history-list">
+    <li class="history-list clearfix">
       <dl>
         <dt>2016</dt>
         <dd>한국프랜차이즈대상식품의약품안전처장상 수상</dd>
@@ -62,19 +62,19 @@ include_once(G5_PATH.'/head1.php');
         <dd>100호점 동두천점 오픈</dd>
       </dl>
     </li>
-    <li class="history-list">
+    <li class="history-list clearfix">
       <dl>
         <dt>2018</dt>
         <dd>(주)라라에프앤비 법인 설립</dd>
       </dl>
     </li>
-    <li class="history-list">
+    <li class="history-list clearfix">
       <dl>
         <dt>2019</dt>
         <dd>120호점 목동점 오픈</dd>
       </dl>
     </li>
-    <li class="history-list">
+    <li class="history-list clearfix">
       <dl>
         <dt>2020</dt>
         <dd>라라코스트 121호점 경산점 오픈</dd>
@@ -85,7 +85,7 @@ include_once(G5_PATH.'/head1.php');
         <dd>라라코스트 126호점 울산정자점 오픈</dd>
       </dl>
     </li>
-    <li class="history-list">
+    <li class="history-list clearfix">
       <dl>
         <dt>2021</dt>
         <dd>중소벤처기업부 '우수프랜차이즈' 지정</dd>
@@ -109,7 +109,7 @@ include_once(G5_PATH.'/head1.php');
         <dd>강원홍천점 오픈</dd>
       </dl>
     </li>
-    <li class="history-list">
+    <li class="history-list clearfix">
       <dl>
         <dt>2022</dt>
         <dd>중소벤처기업부 21-22년 '우수프랜차이즈' 2년 연속 지정</dd>
@@ -120,26 +120,27 @@ include_once(G5_PATH.'/head1.php');
     </li>
   </ul>
 </article>
-<article class="top10 sub-sec">
+<article class="top10 sub-sec clearfix">
   <div class="sub-txt">
     <h3 class="sub-tit">TOP10 FRANCHISE</h3>
-    <em>전국 TOP10 패밀리 레스토랑 브랜드 <strong>'라라코스트 선정'</strong></em>
+    <em class="sub-desc">전국 TOP10 패밀리 레스토랑 브랜드 <strong>'라라코스트 선정'</strong></em>
   </div>
   <figure><img src="/img/sub/sub1/top10.png" alt=""></figure>
+  <span>출처: 포브스코리아 선정 대한민국 핫 플레이스 | 패밀리 레스토랑 2021.07.23</span>
 </article>
 <article class="interview sub-sec">
   <div class="sub-txt">
     <h3 class="sub-tit">FRANCHISE STORE INTERVIEW</h3>
-    <em>가맹점주 <strong>인터뷰</strong></em>
+    <em class="sub-desc">가맹점주 <strong>인터뷰</strong></em>
   </div>
   <section class="interview-wrap">
-    <article class="interview-content1">
-      <em>월매출 1억 7천만원,<br><strong>라라코스트</strong>라서 가능했어요</em>
+    <article class="interview-content">
+      <em>'월매출 1억 7천만원, <strong>라라코스트</strong>라서 가능했어요'</em>
       <span>성서점 정00 점주님</span>
       <p>유행과 계절을 타지 않으면서 안정성이 높은 라라코스트를 선택했어요.<br>광고로 단기간에 키운 반짝 아이템은 피하는 게 옳다고 봐요.<br>제가 생각하는 라라코스트의 장점은 안정적인 가맹 시스템과 맛과 서비스를 보장하는 탄탄한 매뉴얼이에요.</p>
     </article>
-    <article class="interview-content2">
-      <em>친구 권유로 시작해<br><strong>7년째 생업</strong>이 됐어요</em>
+    <article class="interview-content">
+      <em>'친구 권유로 시작해<strong>7년째 생업</strong>이 됐어요'</em>
       <span>구평점박00 점주님</span>
       <p>놀이방이 있어 가족 단위 고객만 오실 줄 알았는데, 생각 이상으로 고객층이 넓더군요.<br>모든 연령대가 찾는다는 건 그만큼 브랜드의 성장력이 강하다는 뜻이잖아요?<br>라라코스트와 함께하는 인생 2막, 꾸준히 행복하게 만들어 가려 합니다.</p>
     </article>

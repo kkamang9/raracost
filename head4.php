@@ -13,7 +13,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 ?>
 
 <link rel="stylesheet" href="/css/sub-common.css">
-<link rel="stylesheet" href="/css/sub3.css">
+<link rel="stylesheet" href="/css/sub4.css">
 
 <div id="skip_to_container"><a href="#container">본문 바로가기</a></div>
 <!-- 상단 시작 -->
@@ -146,16 +146,17 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 </header>
 <main id="main">
     <section class="visual">
-        <h3 class="inner">커뮤니티</h3>
+        <h3 class="inner">프랜차이즈</h3>
     </section>
     <nav class="lnb">
         <h3 class="hidden">로케이트 네비게이션</h3>
         <div class="inner">
             <ul class="lnb-list">
-                <li class="on"><a href="#">공지사항</a></li>
-                <li><a href="#">언론보도</a></li>
-                <li><a href="http://jaehong.pe.kr/bbs/board.php?bo_table=event">진행중인 이벤트</a></li>
-                <li><a href="#">종료된 이벤트</a></li>
+                <li class="on"><a href="/sub/sub4-1.php">개설조건</a></li>
+                <li><a href="/sub/sub4-2.php">절차 및 비용</a></li>
+                <li><a href="#">자주 묻는 질문</a></li>
+                <li><a href="#">구독&상담신청</a></li>
+                <li><a href="/sub/sub4-5.php">둘러보기</a></li>
             </ul>
         </div>
     </nav>
